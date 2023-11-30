@@ -2,7 +2,10 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 20%;
+    background-color: yellow;
 }
 button {
     border: solid;
+    width: 200px;
+    height: 200px;
 }
