@@ -13,7 +13,7 @@
     <p class="meanQ"><span>{{j | add:1}}. </span>{{i.word}}</p>
     <p class="meanAnswer">{{i.mean}}</p>
     <input class="meanA" placeholder="mean">
-    <button onclick="meanCheck('{{j}}')" type="button">채점</button>
+    <button class="meanCheck" onclick="meanCheck('{{j}}')" type="button">채점</button>
     <br>
     <hr>
     {% endfor %}
@@ -21,7 +21,7 @@
     <p class="wordQ"><span>{{j | add:1}}. </span>{{i.mean}}</p>
     <p class="wordAnswer">{{i.word}}</p>
     <input class="wordA" placeholder="word">
-    <button onclick="wordCheck('{{j}}')" type="button">채점</button>
+    <button class="wordCheck" onclick="wordCheck('{{j}}')" type="button">채점</button>
     <br>
     <hr>
     {% endfor %}

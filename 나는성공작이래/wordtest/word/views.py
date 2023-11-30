@@ -2,9 +2,6 @@ from django.shortcuts import render, redirect
 from bs4 import BeautifulSoup
 import requests
 from word.models import Word
-import time
-from selenium.webdriver.common.by import By
-from django.http import HttpResponse
 from random import randint as ri
     
 

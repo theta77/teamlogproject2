@@ -1,8 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-import time
-from selenium.webdriver.common.by import By
 
 session = requests.Session()
 header = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5)\
