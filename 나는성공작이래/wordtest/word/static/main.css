@@ -1,11 +1,31 @@
+/* main.css */
+
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    margin: 20%;
-    background-color: yellow;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
+a {
+    text-decoration: none;
+}
+
 button {
-    border: solid;
-    width: 200px;
-    height: 200px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
